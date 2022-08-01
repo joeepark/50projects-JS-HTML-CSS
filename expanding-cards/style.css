@@ -23,10 +23,11 @@ body {
 
 .cards {
   /* border: 1px solid black; */
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
+  border-radius: 50px;
   /* vertical-align: text-bottom; */
   color: white;
   cursor: pointer;
@@ -53,6 +54,7 @@ body {
 
 .cards.active h3 {
   opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
 @media(max-width: 700px) {
