@@ -1,5 +1,5 @@
 ## <b>Expanding Cards</b>
-- Utilized flexbox with background imaages to create clickable containers
+- Utilized flexbox with background images to create clickable containers
 - Added event listeners to change the active container shown changing the container sizes based on status
 <img src="./assests/expanding-cards-1.png">
 <img src="./assests/expanding-cards-2.png">
