@@ -44,14 +44,16 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: white;
-  padding: 1.5em 1.5em;
+  background-color: #edf6f9;
+  padding: 1em 1.5em;
+  transition: all .3s ease-in-out;
 }
 
 .nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all .3s ease-in-out;
 }
 
 .nav ul {
@@ -65,6 +67,18 @@
   text-decoration: none;
   padding-left: 20px;
   color: black;
+  transition: all .3s ease-in-out;
+}
+
+.nav a.current,
+.nav a:hover {
+  color: #e29578;
+}
+
+.nav.active {
+  background-color: #a9999a;
+  box-shadow: 0 2px 10px rgb(0, 0, 0, 0.3);
+  padding: .5em 1.5em;
 }
 
 .content {
@@ -74,4 +88,8 @@
 .content p {
   margin-bottom: 2em;
   letter-spacing: 1.2px;
+}
+
+.logo {
+  color: #006d77;
 }
