@@ -1,3 +1,6 @@
+# Here is an accumulation of micro projects for me to master JavaScript/HTML/CSS. 
+The goal here is to focus on creating features with JavaScript functionality and to implement good-looking designs that are responsive to media queries.
+
 ## <b>Expanding Cards</b>
 - Created clickable containers
 - Added event listeners to change the active container shown based on status
