@@ -25,14 +25,15 @@ body {
   background-color: blue;
 }
 
+/* .form-container {
+  display: flex;
+  border: 1px solid red;
+} */
+
 
 .user-form {
   width: 100%;
   max-width: 700px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 2.5em;
 }
 
 #search {
@@ -42,18 +43,5 @@ body {
   border: none;
   padding: 1em 3em;
   background-color: #fca311;
-}
-
-.main {
-  display: block;
-}
-
-.card {
-  border: 1px solid red;
-  width: 100%;
-  max-width: 700px;
-}
-
-.img {
-  width: 100%;
+  margin-bottom: 2.5em;
 }
