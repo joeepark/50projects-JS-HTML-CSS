@@ -1,7 +1,7 @@
 ## Here is an accumulation of micro projects for me to master JavaScript/HTML/CSS. 
 The goal here is to focus on creating features with JavaScript functionality and to implement good-looking designs that are responsive to media queries.
 
-## <b>Expanding Cards</b>
+## Expanding Cards
 - Created clickable containers
 - Added event listeners to change the active container shown based on status
 <br>
@@ -9,7 +9,7 @@ The goal here is to focus on creating features with JavaScript functionality and
 <br>
 <img src="./assests/expanding-cards-2.png">
 
-## <b>Sticky Nav</b>
+## Sticky Nav
 - Created a sticky navbar
 - Added event listeners to change the sizing and colors as the navbar hits a threshold on the scrolling Y axis.
 <br>
@@ -17,7 +17,7 @@ The goal here is to focus on creating features with JavaScript functionality and
 <br>
 <img src="./assests/sticky-navbar-2.png">
 
-## <b>Progress Steps</b>
+## Progress Steps
 - Created a progress bar with current/tracked status
 - Added event listeners to change the progress status when the buttons are clicked
 <br>
