@@ -6,7 +6,6 @@ The goal here is to focus on creating features with JavaScript functionality and
 - Added event listeners to change the active container shown based on status
 <br>
 <img src="./assests/expanding-cards-1.png">
-<br>
 <img src="./assests/expanding-cards-2.png">
 
 ## Github Profile Cards
@@ -15,9 +14,7 @@ The goal here is to focus on creating features with JavaScript functionality and
 - Used media thresholds to display the info as a column
 <br>
 <img src="./assests/github-profile-1.png">
-<br>
 <img src="./assests/github-profile-2.png">
-<br>
 <img src="./assests/github-profile-3.png">
 
 ## Sticky Nav
@@ -25,7 +22,6 @@ The goal here is to focus on creating features with JavaScript functionality and
 - Added event listeners to change the sizing and colors as the navbar hits a threshold on the scrolling Y axis.
 <br>
 <img src="./assests/sticky-navbar-1.png">
-<br>
 <img src="./assests/sticky-navbar-2.png">
 
 ## Progress Steps
@@ -33,5 +29,4 @@ The goal here is to focus on creating features with JavaScript functionality and
 - Added event listeners to change the progress status when the buttons are clicked
 <br>
 <img src="./assests/progress-steps-2.png">
-<br>
 <img src="./assests/progress-steps-1.png">
