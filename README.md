@@ -11,7 +11,7 @@ The goal here is to focus on creating features with JavaScript functionality and
 ## Github Profile Cards
 - Created a search bar that displays a Github user's profile information
 - Added event listeners to listen to a user's input and used Axios to fetch the data using Github's user API to display the correct info
-- Used media thresholds to display the info as a column
+- Used media thresholds to make the info mobile friendly
 <br>
 <img src="./assests/github-profile-1.png">
 <img src="./assests/github-profile-2.png">
