@@ -107,3 +107,26 @@
     margin: 0 1.6em;
   }
 }
+
+.home-container{
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.home {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  border-radius: 1em;
+  background-color: #ffafcc;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
