@@ -1,5 +1,5 @@
 ## Try testing a live demo of the app!
-https://jp-mastery.netlify.app/
+https://js-mastery.netlify.app/
 
 ## Here is an accumulation of micro projects for me to master JavaScript/HTML/CSS. 
 The goal here is to focus on creating features with JavaScript functionality and to implement good-looking designs that are responsive to media queries.
