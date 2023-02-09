@@ -16,7 +16,7 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
-  color: rgb(50, 50, 50)
+  color: rgb(50, 50, 50);
 }
 
 .user-form {
@@ -28,13 +28,18 @@ body {
   margin-bottom: 2.5em;
 }
 
+.form-container{
+  max-width: 800px;
+  margin: 0 1em;
+}
+
 #search {
-  /* max-width: 800px; */
   border-radius: 10px;
   border: none;
-  padding: 1em 5em;
+  padding: 1em 2em;
   background-color: #fca311;
-  width: 700px;
+  /* width: 100%; */
+  min-width: 700px;
 }
 
 #search:focus {
@@ -48,7 +53,7 @@ body {
 
 i {
   position: absolute;
-  left: 20px;
+  left: 210px;
 }
 
 .card {
@@ -59,7 +64,8 @@ i {
   color: #14213d;
   border-radius: 10px;
   display: flex;
-  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: center
 }
 
 .card .nouser {
@@ -111,4 +117,9 @@ img {
 
 li span {
   font-weight: 700;
+}
+
+.profile-card {
+  display: flex;
+  justify-content: center;
 }
