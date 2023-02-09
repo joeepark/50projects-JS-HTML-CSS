@@ -92,11 +92,11 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  width: 200px;
-  height: 50px;
-  border-radius: 1em;
+  padding: .6em 2em;
+  border-radius: .5em;
   background-color: #bde0fe;
   color: black;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;

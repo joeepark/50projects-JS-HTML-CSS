@@ -5,10 +5,15 @@ const mainTag = document.querySelector('main');
 
 async function getUser(username) {
   try {
-    const { data } = await axios(APIURL + username)
-    createUserInfo(data)
+    const data = await fetch(APIURL + username);
+    const response = await data.json();
+    if (response.message === 'Not Found') {
+      createErrorCard();
+    } else {
+      createUserInfo(response);
+    }
   } catch (err) {
-    if (err.response.status === 404) {
+    if (err) {
       createErrorCard();
     }
     console.error(err);
@@ -33,9 +38,9 @@ function createUserInfo(user) {
       <h2>${user.name}</h2>
       <p>${user.bio}</p>
       <ul>
-        <li>${user.followers} Followers</li>
-        <li>${user.following} Following</li>
-        <li>${user.public_repos} Repos</li>
+        <li><span>${user.followers}</span> Followers</li>
+        <li><span>${user.following}</span> Following</li>
+        <li><span>${user.public_repos}</span> Repos</li>
       </ul>
       <div class="repos">
       </div>
@@ -47,7 +52,7 @@ function createUserInfo(user) {
 
 
 function createErrorCard() {
-  const innerText = `<div class="card">
+  const innerText = `<div class="card error-card">
   <span class="nouser"> NO USER FOUND </span>
   </div>`
 

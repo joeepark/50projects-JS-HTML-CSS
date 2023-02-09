@@ -1,8 +1,8 @@
 ## Try testing a live demo of the app!
 https://js-mastery.netlify.app/
 
-## Here is an accumulation of micro projects for me to master JavaScript/HTML/CSS. 
-The goal here is to focus on creating features with JavaScript functionality and to implement good-looking designs that are responsive to media queries.
+## An accumulation of projects for me to practice JavaScript, HTML, CSS. 
+The goal here is to focus on creating components with JavaScript functionality and to implement good-looking designs that are responsive.
 
 ## Expanding Cards
 - Created clickable containers

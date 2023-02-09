@@ -37,9 +37,8 @@ body {
   text-decoration: none;
   color: white;
   background-color: #1d3557;
-  width: 200px;
-  height: 50px;
-  border-radius: 1em;
+  padding: .6em 2em;
+  border-radius: .5em;
   margin: 10px 10px;
   display: flex;
   justify-content: center;

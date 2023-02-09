@@ -121,9 +121,9 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  width: 200px;
-  height: 50px;
-  border-radius: 1em;
+  padding: .6em 2em;
+  border-radius: .5em;
+  font-weight: 700;
   background-color: #ffafcc;
   color: white;
   display: flex;
